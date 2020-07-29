@@ -11,6 +11,7 @@ The different tasks performed by the dynamic typing tutor are:-
 <p  align="centre">
   Output screen for implementation of word correction using edit distance algorithm:
   <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/edit-distance.png" width= 650 height=400/>
+  
   Output screen for implementation of word correction using edit distance algorithm:
-  <img align="centre" src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/trie-prediction.png" width= 650 height=400/>
+  <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/trie-prediction.png" width= 650 height=400/>
 </p/>
