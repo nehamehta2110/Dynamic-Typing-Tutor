@@ -10,7 +10,6 @@
 
 
 // Suggested Helper Functions
-/*__________________________________________________________________________*/
 
 // Creates a new TrieNode.
 TrieNode *createTrieNode(void) 
@@ -116,7 +115,6 @@ void alphabetizePriority(char *strA, char *strB, char *winner)
 	if (lenA == lenB)
 	{
 		// Both strings are the same in length.
-		// No worries about overstepping bounds of either array.
 		for (i = 0; i < lenA; i++)
 		{	
 			if (strA[i] < strB[i])
@@ -129,8 +127,7 @@ void alphabetizePriority(char *strA, char *strB, char *winner)
 				order = 0;
 				break;
 			}
-			// If you have two of the same strings, order = 2,
-			// and the winner becomes either of the 2 strings.	
+	
 			else
 				order = 2;
 		}
@@ -486,33 +483,11 @@ int processInputFile(TrieNode *root, char *filename) // :(
 		{				
 			increment = 1;
 
-			// NOTE: I was not able to complete this portion 
-			// of the processing file. 
-
-			// My prefixCount() function works kind of
-			// okay as long as you don't search for a 
-			// prefix that doesn't exist. 
-			// If you do, you will get a segFault I 
-			// can't figure out why though.
-
-			// (o_O) 
-			// I also could not get getMostFrequentWord()
-			// to work out for the life of me... I tried to use 
-			// your traversal method in printTrieHelper(), but it 
-			// got really messy after a while. 
-
 		}
 		// String has no puncuators
 		else 
 		{
 
-			// NOTE: For some reason my getNode() function
-			// does not want to work. Because I call getNode() in
-			// containsWord() function as well, it doesnt work either.
-
-			// However, I think the code below would work, if 
-			// could get getNode to work.... :(.			
-			// -------------------------------
 			
 			if (!containsWord(root, buffer))
 			{
@@ -617,12 +592,6 @@ int containsWord(TrieNode *root, char *str)
 	return ( last == NULL)? 0:1;
 }
 
-// :( 
-// prefixCount() function works kind of, it is able to count up all the strings 
-// that contain a prefix that exists in the trie, but if you enter a
-// 													  =============== 
-// prefix that doesn't exist, I get a fat segfault, and I can't understand why.
-// ===============================================
 int prefixCount(TrieNode *root, char *str) 
 {
 	TrieNode *wizard, *terminal = NULL;
@@ -716,18 +685,6 @@ int prefixCount(TrieNode *root, char *str)
 
 	printf("count for prefix(%s): %d\n", str, count);
 	return count;
-}
-
-double difficultyRating(void)
-{
-
-	return 5.0;
-}
-
-double hoursSpent(void)
-{
-
-	return 25.0;
 }
 
 int main(int argc, char **argv)
