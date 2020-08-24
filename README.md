@@ -9,9 +9,9 @@ The different tasks performed by the dynamic typing tutor are:-
 	User Profiling <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/gif2.gif" width=50 height=30/>
 
 <p  align="centre">
-  Output screen for implementation of word correction using edit distance algorithm:
-  <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/edit-distance.png" width= 650 height=400/>
+  Output screen for implementation of user profiling and word correction using edit distance algorithm:
+  <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/signin.png" width= 650 height=400/>
   
-  Output screen for implementation of word correction using edit distance algorithm:
+  Output screen for implementation of word prediction using Trie algorithm:
   <img src="https://github.com/nehamehta2110/Dynamic-Typing-Tutor/blob/master/Dynamic%20Typing%20Tutor/trie-prediction.png" width= 650 height=400/>
 </p/>
